@@ -10,19 +10,16 @@ import {covidEssentials} from "../components/data.js"
 let data = covidEssentials()
 // console.log(data)
 let buttonCreateDivCount = 0;
-let i = 0;
 
-function displayUI({bannerImg, mastCata, name}){
+function displayUI({catagories : {data, subBanner}, name}){
     let body = get("appendProd");
+    // console.log(data,subBanner)
+    displayBannerImage(subBanner,name);
 
-    console.log(mastCata)
-    sortByCatagory(mastCata)
-    displayBannerImage(bannerImg,name);
-
-    appendPrducts(mastCata[Math.floor(Math.random()*3)].catagories.data);
+    appendPrducts(data);
 
 }
-displayUI(data)
+displayUI(data.mastCata[localStorage.getItem("idToAcessProducts")])
 
 function appendPrducts(data){
     let body = get("#appendProd")
@@ -173,39 +170,5 @@ function displayBannerImage(data,name){
         body.style.backgroundColor = "#dff8ff"
     }
     body.append(innerDat);
-}
-
-
-function sortByCatagory(data){
-    let body = get("#sortByCatagory");
-    body.innerHTML = null;
-
-    let h5 = create("h5");
-    h5.innerText = "SHOP BY CATAGORY"
-
-    let mDiv = create("div");
-    data.forEach(({catagoryImg, name, disc},ind) => {
-        let div = create("div")
-        div.onclick = function(){
-            console.log("working")
-            localStorage.setItem("idToAcessProducts",ind)
-            window.location.href = "./subProducts.html"
-        }
-
-        let img = create("img");
-        img.src = catagoryImg;
-
-        let h6 = create("h6")
-        h6.innerText = name;
-
-        let dis = create("h6")
-        dis.innerText = `UPTO ${disc}%`;
-
-        div.append(img, h6, dis)
-
-        mDiv.append(div);
-    })
-
-    body.append(h5, mDiv)
 }
 

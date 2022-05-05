@@ -146,7 +146,7 @@ let covidEssentials = {
         },
         {
             catagoryImg : "https://www.netmeds.com/images/category/3065/thumb/mask_gloves_protective_equipment_1.jpg",
-            name : "Mask,Gloves & pr..." ,
+            name : "Mask,Gloves & Pr..." ,
             disc : 88,
             catagories :
             { 

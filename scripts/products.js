@@ -99,7 +99,11 @@ function addToProductsButtonClick(div,obj, idDiv){
 
     minus.onclick = function(){
         obj["count"]--;
-        setLocalStorage(obj,"cartData")
+        if(obj.count <= 0){
+            removeFromLocalStorage(obj)
+        }else{
+            setLocalStorage(obj,"cartData")
+        }
         addToProductsIncDec(count,false, idDiv,obj)
     }
     plus.onclick = function(){
@@ -110,6 +114,12 @@ function addToProductsButtonClick(div,obj, idDiv){
     }
 
     div.append(minus,count,plus)
+}
+
+function removeFromLocalStorage(obj){
+    let data = getLocaStorage("cartData");
+    delete data[obj.name];
+    localStorage.setItem("cartData",JSON.stringify(data));
 }
 
 function getLocaStorage(key){

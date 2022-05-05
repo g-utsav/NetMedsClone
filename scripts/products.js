@@ -5,8 +5,9 @@ function create(id){
     return document.createElement(id)
 }
 
-import dat from "../components/data.js"
-let data = dat()
+import {covidEssentials} from "../components/data.js"
+
+let data = covidEssentials()
 // console.log(data)
 let buttonCreateDivCount = 0;
 
@@ -18,7 +19,7 @@ function displayUI({catagories : {data, subBanner}, name}){
     appendPrducts(data);
 
 }
-displayUI(data.mastCata[0])
+displayUI(data.mastCata[1])
 
 function appendPrducts(data){
     let body = get("#appendProd")

@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/products.css">
+    <style>
+        #header{
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="header"></div>
     <div id="midBody">
         <div id="sidebar"></div>
         <div id="productsBody">
@@ -18,9 +23,10 @@
             </div>
             
             <div id="shortingFunc">
-                <p>Showing</p>
-                <div>
+                <p>Showing <b>20</b> of <b>100</b> items</p>
+                <div id="buttonsToSort">
                     <span>Sort By:</span>
+                    <button>Popularity</button>
                     <button>High To Low</button>
                     <button>Low To High</button>
                     <button>Discount</button>

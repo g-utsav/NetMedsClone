@@ -138,3 +138,1272 @@ color: white;
 
 
 }
+
+
+/* Suresh */
+
+#body{
+    background-color: #f3f7fb;
+}
+#carouselExampleIndicators{
+    padding: 0px 16px;
+    height: 300px;
+}
+.carousel-inner img{
+    height: 320px;
+}
+/* .carousel-control-next{
+    color: black;
+    margin-right: -65px;
+}
+.carousel-control-prev{
+    color: black;
+    margin-left: -65px;
+} */
+
+#top_category{
+    width: 95%;
+    height: 86px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex: 3;
+}
+.cat-list{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 31%;
+    height: 100%;
+    margin: auto;
+    padding: 12px 12px;
+    background-color: white;
+}
+.cat_a:hover{
+    text-decoration: none;
+}
+.cat_a>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.cat_a>div>img:nth-child(1){
+    width: 56px;
+    height: 62px;
+}
+.cat_a>div>img:last-child{
+    width: 31px;
+    height: 24px;
+    margin-left: 110px;
+    align-self: center;
+    
+}
+.cat_a>div>div{
+    width: 40%;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.cat_a>div>div>h2:hover{
+    text-decoration: none;
+}
+.cat_a>div>div>h2{
+    font-size: 20px;
+    color: black;
+}
+.cat_a>div>div>h4{
+    font-size: 14px;
+    color: #5BA41C;
+}
+#h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    font-size: 24px;
+}
+#payment_category{
+    position: relative;
+    
+    gap: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    width: 95%;
+    height: 74px;
+    margin: auto;
+    margin-top: 40px;   
+    margin-bottom: 40px;  
+    padding-bottom: 10px; 
+        
+}
+
+#productsbtns{
+    width: 1000px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    right: 30px;
+    margin-top: 17px;
+    position: sticky;
+    
+}
+
+#productsbtns1{
+    height: 25px;
+    position: absolute;
+    display: flex;
+    right: 1270px;
+    position: sticky;
+    margin-top: 17px;
+}
+
+#productsbtns>button{
+    display: block;
+}
+#productsbtns1>button{
+    display: block;
+}
+#productsbtns>button:focus{
+    outline: none;
+}
+#productsbtns1>button:focus{
+    outline: none;
+}
+
+#pleftbtn{
+    width: 25px;
+    height: 25px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#prightbtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+
+.payment-list{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 31%;
+    height: 100%;
+    margin: auto;
+    padding: 12px 12px;
+    background-color: white;
+}
+.payment_a:hover{
+    text-decoration: none;
+}
+.payment_a>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.payment_a>div>div:nth-child(1){
+    width: 57px;
+    height: 36px;
+    border-right:1px solid #6f7284;
+    align-self: center;
+}
+.payment_a>div>div:nth-child(1)>img{
+    width: 37px;
+    height: 36px;
+}
+.payment_a>div>div{
+    width: 300px;
+    margin-left: 15px;
+}
+.payment_a>div>div>h2{
+    font-size: 11px;
+    color: black;
+}
+.payment_a>div>div>p{
+    font-size: 10px;
+    color: #6f7284;
+}
+
+
+
+#order_product{
+    width: 95%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 40px;
+    flex: 2;
+}
+.order_product{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_order_product>h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.child_order_product>p{
+    font-size: 16px;
+}
+.child_order_product>button{
+    width: 160px;
+    height: 36px;
+    display: flex;
+    align-self: center;
+    border: none;
+    background-color: #f3f7fb;
+    color: #24aeb1;
+    font-weight: 500;
+    margin-left: -1px;
+    
+}
+.child_order_product>button>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+#explorebtn{
+    width: 140px;
+    height: 32px;
+    display: block;
+    background-color: #24aeb1;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: rgba(19, 224, 224, 0.1) 0px 4px 12px;
+}
+.orderline{
+    border-right:1px solid #c4cace; 
+    height: 90%;          
+    margin: auto; 
+    align-self: center;
+}
+.orderpadding{
+    padding-left: 20px;
+}
+#trending{
+    margin: auto;
+    font-size: 24px;
+    margin-bottom: 40px;
+    width: 100%;
+    
+}
+#trending>h2{
+    margin-left: 32px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.img_box img{
+    max-width: 100%;
+}
+
+.slider_container .container{
+    padding: 0px 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 32px;
+
+}
+.card_slider{
+    padding: 50px 0px;
+}
+.swiper-button-next{
+    color: black;
+}
+.img_box img{
+    border-radius: 5px;
+}
+.swiper-button-next{
+    color: black;
+    margin-right: -10px;   
+    
+}
+.swiper-button-prev{
+    color: black;
+    margin-left: -10px;
+    
+    
+}
+#shopbycat{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 0px 32px;
+}
+#shopbycat>h2{
+    
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#shopbycat a{
+    margin: auto;
+}
+#shopbycat a:hover{
+    text-decoration: none;
+}
+#Cshopbycat{
+    display: flex;
+    gap: 20px;
+}
+.CShopbycat{
+    margin: auto;
+    text-align: center;
+    
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CShopbycat img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CShopbycat h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* Top brands */
+#topbrandsh2{
+    margin-bottom: 20px;
+    padding: 0px 32px;
+    font-size: 24px;
+    
+}
+
+#topbrands{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 0px 32px;
+
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+}
+#CTopproductsbtns{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1250px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#CTopproductsbtns1{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: -15px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#CTopproductsbtns>button{
+    display: block;
+}
+#CTopproductsbtns1>button{
+    display: block;
+}
+#CTopproductsbtns>button:focus{
+    outline: none;
+}
+#CTopproductsbtns1>button:focus{
+    outline: none;
+}
+
+#CToppleftbtn1{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#CTopprightbtn1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#topbrands a{
+    margin: auto;
+}
+#topbrands a:hover{
+    text-decoration: none;
+}
+#Ctopbrands{
+    display: flex;
+    gap: 20px;
+}
+.CTopBrands{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CTopBrands img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CTopBrands h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.CTopBrands h6{
+    color: #6aac30;
+}
+#membership{
+    border: none;
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid #dbe0e4;
+    border-bottom: 1px solid #dbe0e4;
+    height: 150px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.membership1{
+    width: 10%;
+    align-self: center;
+}
+.membership1>img{
+    width: 61px;
+    height: 77px;
+}
+.membership2{
+    width: 60%;
+    align-self: center;
+}
+.membership2>h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.membership2>ul{
+    font-size: 14px;
+    
+}
+.membership2>ul>li{
+    margin-bottom: 8px;
+}
+.membership3{
+    width: 30%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.membership3>h5{
+    color: #ef4281;
+    font-size: 18px;
+}
+.membership3>h5,button{
+    align-self: center;
+}
+.membership3>button{
+    margin-top: -7px;
+    border: none;
+    background-color: #24aeb1;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: rgba(9, 230, 230, 0.1) 0px 0px 5px 0px, rgba(9, 230, 230, 0.1) 0px 0px 1px 0px;
+}
+
+/* Categories in Focus */
+#CategoriesinFocustop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px 32px;
+}
+#CategoriesinFocustop>h2{
+    font-size: 24px;
+}
+#CategoriesinFocustop>h5>a{
+    font-size: 14px;
+    color: #ef4281;
+    
+}
+
+#CategoriesinFocus{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 0px 32px;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+#productsbtns0{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1250px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#productsbtns01{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: -15px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#productsbtns0>button{
+    display: block;
+}
+#productsbtns01>button{
+    display: block;
+}
+#productsbtns0>button:focus{
+    outline: none;
+}
+#productsbtns01>button:focus{
+    outline: none;
+}
+
+#pleftbtn1{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#prightbtn1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#CategoriesinFocus a{
+    margin: auto;
+}
+#CategoriesinFocus a:hover{
+    text-decoration: none;
+}
+#cCategoriesinFocus{
+    display: flex;
+    gap: 20px;
+}
+.cCategoriesinFocus{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.cCategoriesinFocus img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.cCategoriesinFocus h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.cCategoriesinFocus h6{
+    color: #6aac30;
+}
+
+/* Explore Beauty */
+#exploreBeauty{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 210px;
+    padding: 20px 32px;
+    position: relative;
+    height: 200px;
+    color: white;
+    background-color: #ef4281;
+}
+#exploreBeauty>h2{
+    font-size: 24px;
+}
+#exploreBeauty>h5>a{
+    font-size: 14px;
+    color: white;
+    
+}
+
+#exploreBeauty1{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 97.5%;
+    
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+#exploreBeautybtns{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1300px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#exploreBeautybtns1{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 12px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#exploreBeautybtns>button{
+    display: block;
+}
+#exploreBeautybtns1>button{
+    display: block;
+}
+#exploreBeautybtns>button:focus{
+    outline: none;
+}
+#exploreBeautybtns1>button:focus{
+    outline: none;
+}
+
+#exploreBeautyleftbtns{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#exploreBeautyrightbtns{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#exploreBeauty1 a{
+    margin: auto;
+}
+#exploreBeauty1 a:hover{
+    text-decoration: none;
+}
+#CexploreBeauty{
+    display: flex;
+    gap: 20px;
+}
+.CexploreBeauty{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CexploreBeauty img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CexploreBeauty h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Best in Beauty */
+#BestinBeauty{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 210px;
+    padding: 20px 32px;
+    position: relative;
+    height: 200px;
+    color: white;
+    background-color: #8a8f95;
+}
+#BestinBeauty>h2{
+    font-size: 24px;
+}
+#BestinBeauty>h5>a{
+    font-size: 14px;
+    color: white;
+    
+}
+
+#BestinBeauty1{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 97.5%;
+    
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+#BestinBeautybtns{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1300px;
+    margin-top: 120px;
+    position: sticky;
+    
+}
+
+#BestinBeautybtns1{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 12px;
+    margin-top: 120px;
+    position: sticky;
+    
+}
+
+#BestinBeautybtns>button{
+    display: block;
+}
+#BestinBeautybtns1>button{
+    display: block;
+}
+#BestinBeautybtns>button:focus{
+    outline: none;
+}
+#BestinBeautybtns1>button:focus{
+    outline: none;
+}
+
+#BestinBeautyleftbtns{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#BestinBeautyrightbtns{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#BestinBeauty1 a{
+    margin: auto;
+}
+#BestinBeauty1 a:hover{
+    text-decoration: none;
+}
+#CBestinBeauty{
+    display: flex;
+    gap: 20px;
+}
+.CBestinBeauty{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CBestinBeauty img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CBestinBeauty h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Personal Care */
+#PersonalCare{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 0px 32px;
+}
+#PersonalCare>h2{
+    
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#PersonalCare a{
+    margin: auto;
+}
+#PersonalCare a:hover{
+    text-decoration: none;
+}
+#CPersonalCare{
+    display: flex;
+    gap: 20px;
+}
+.CPersonalCare{
+    margin: auto;
+    text-align: center;
+    
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CPersonalCare img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CPersonalCare h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* <!-- Men's Grooming --> */
+
+#MenGrooming{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 0px 32px;
+}
+#MenGrooming>h2{
+    
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#MenGrooming a{
+    margin: auto;
+}
+#MenGrooming a:hover{
+    text-decoration: none;
+}
+#CMenGrooming{
+    display: flex;
+    gap: 20px;
+}
+.CMenGrooming{
+    margin: auto;
+    text-align: center;
+    
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CMenGrooming img{
+    border-radius: 10px;
+    width: 224px;
+    height: 224px;
+}
+.CMenGrooming h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.CMenGrooming h6{
+    color: #6aac30;
+}
+
+/* Get Medicine */
+#Getmedicine{
+    border: none;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbe0e4;
+    height: 120px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.Getmedicine1{
+    width: 12%;
+    align-self: center;
+    
+    margin: auto;
+    
+    height: 100px;
+}
+.Getmedicine1>img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-self: center;
+}
+.Getmedicine2{
+    width: 94%;
+    align-self: center;
+}
+.Getmedicine2>h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.Getmedicine2>ul{
+    font-size: 14px;
+    
+}
+.Getmedicine2>ul>li{
+    margin-bottom: 8px;
+}
+.Getmedicine3{
+    width: 13%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Getmedicine3>button{
+    font-weight: 600;
+    align-self: center;
+    margin-top: -7px;
+    border: none;
+    background-color: #24aeb1;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: rgba(9, 230, 230, 0.1) 0px 0px 5px 0px, rgba(9, 230, 230, 0.1) 0px 0px 1px 0px;
+}
+
+
+/* Categories in Focus */
+#TopHealthConcerns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0px 32px;
+}
+#TopHealthConcerns>h2{
+    font-size: 24px;
+}
+
+
+#HealthConcerns{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 20px 32px;
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+#HealthConcernsbtns{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1250px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#HealthConcernsbtns1{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: -15px;
+    margin-top: 127px;
+    position: sticky;
+    
+}
+
+#HealthConcernsbtns>button{
+    display: block;
+}
+#HealthConcernsbtns1>button{
+    display: block;
+}
+#HealthConcernsbtns>button:focus{
+    outline: none;
+}
+#HealthConcernsbtns1>button:focus{
+    outline: none;
+}
+
+#Hleftbtn{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#Hrightbtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#HealthConcerns a{
+    margin: auto;
+}
+#HealthConcerns a:hover{
+    text-decoration: none;
+}
+#CHealthConcerns{
+    display: flex;
+    gap: 20px;
+}
+.CHealthConcerns{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CHealthConcernsimgdiv{
+    border-radius: 10px;
+    width: 100px;
+    height: 224px;
+    margin: auto;
+}
+.CHealthConcernsimgdiv img{
+
+    align-self: center;
+    margin-top: 63%;
+    border-radius: 10px;
+    width: 96px;
+    height: 96px;
+}
+.CHealthConcerns h5{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/* Advice */
+#Advice{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 210px;
+    padding: 20px 32px;
+    position: relative;
+    height: 150px;
+    color: white;
+    background-color: #ef4281;
+
+}
+#Advice>h2{
+    font-size: 24px;
+}
+#Advice>h5>a{
+    font-size: 14px;
+    color: white;
+    
+}
+
+#Advice1{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 97.5%;
+    
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+#Advicebtns{
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 1300px;
+    margin-top: 75px;
+    position: sticky;
+    
+}
+
+#Advicebtns1{
+    height: 40px;
+    position: absolute;
+    display: flex;
+    right: 12px;
+    margin-top: 75px;
+    position: sticky;
+    
+}
+
+#Advicebtns>button{
+    display: block;
+}
+#Advicebtns1>button{
+    display: block;
+}
+#Advicebtns>button:focus{
+    outline: none;
+}
+#Advicebtns1>button:focus{
+    outline: none;
+}
+
+#Adviceleftbtns{
+    width: 40px;
+    height: 40px;
+    left: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#Advicerightbtns{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e3e3;;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#Advice1 a{
+    margin: auto;
+}
+#Advice1 a:hover{
+    text-decoration: none;
+}
+#CAdvice{
+    display: flex;
+    gap: 20px;
+}
+.CAdvice{
+    margin: auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.CAdvice img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 119px;
+}
+.CAdvice h5{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 20px 20px 10px 20px;
+}

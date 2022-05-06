@@ -369,3 +369,466 @@ let covidEssentials = {
        
     ]
 }
+
+
+let personalCare = {
+     bannerImg : "https://www.netmeds.com/images/cms/aw_rbslider/slides/1649490762_Category_web.jpg",
+    mastCata : 
+    [
+        {
+            catagoryImg : "https://www.netmeds.com/images/category/v1/3684/thumb/bathing_accessories.jpg",
+            name : "Bothing accessories" ,
+             disc : 20 ,
+            catagories :
+            { 
+                subBanner : "https://www.netmeds.com/images/category/v1/3684/bathing_accessories.jpg", 
+                data : 
+                [
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/996830/gubb_luxe_bath_sponge_round_loofah_lilac_40_gm_0_0.jpg",
+                        name : "GUBB Luxe Bath Sponge Round Loofah-Lilac 40 gm",
+                        mkt : "Doctor Morepen Limited",
+                        price : 110,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/996829/gubb_luxe_bath_sponge_round_loofah_coral_40_gm_0_0.jpg",
+                        name : "GUBB Luxe Bath Sponge Round Loofah-Coral 40 gm",
+                        mkt : "Doctor Morepen Limited",
+                        price : 110,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/996828/gubb_luxe_bath_sponge_round_loofah_arctic_40_gm_0_0.jpg",
+                        name : "GUBB Luxe Bath Sponge Round Loofah-Arctic 40 gm",
+                        mkt : "Doctor Morepen Limited",
+                        price : 110,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/996826/gubb_luxe_bath_sponge_round_loofah_pebble_40_gm_0_0.jpg",
+                        name : "GUBB Luxe Bath Sponge Round Loofah-Pebble 40 gm",
+                        mkt : "Doctor Morepen Limited",
+                        price : 110,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/947692/phy_set_of_2_scrub_on!_loofahs_80_gm_0_0.jpg",
+                        name : "Phy Set of 2 Scrub On ! Loofahs 80 Gm",
+                        mkt : "Pureplay Skin Sciences Pvt Ltd",
+                        price : 149,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011827/vega_fluffy_sponge_ba_3_4_76_gm_0_0.jpg",
+                        name : "Vega Fluffy Sponge(BA-3/4)76 gm ",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 190,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011826/vega_flower_sponge_ba_3_3_76_gm_0_0.jpg",
+                        name : "Vega Fluffy Sponge(BA-3/3)76 gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 190,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011825/vega_flower_sponge_small_ba_3_22_66_gm_0_0.jpg",
+                        name : "SBL CLEARVega Fluffy Sponge(BA-3/22)66 gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 120,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011824/vega_hot_pink_luxury_sponge_ba_3_21_75_gm_0_0.jpg",
+                        name : "Vega Hot Pink Luxury Sponge (BA-3/21)75gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 120,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011823/vega_bath_sponge_pair_ba_3_2_48_gm_0_0.jpg",
+                        name : "Vega Both  Sponge  Pair (BA-3/2)48gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 310,
+                        strike : false ,
+                    },
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011822/vega_sea_bath_sponge_ba_3_15_25_gm_0_0.jpg",
+                        name : "Vega  Sea Both  Sponge (BA-3/15)40gm ",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 199,
+                        strike : false ,
+                    } ,
+                    {
+                        image:"https://www.netmeds.com/images/product-v1/150x150/1011821/vega_the_rose_sponge_ba_3_14_94_gm_0_0.jpg",
+                        name : "Vega The Rose Sponge (BA-3/14)94gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : 240,
+                        strike : false ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/1011811/vega_color_cube_fluffy_sponge_ba_3_7_53_gm_0_0.jpg",
+                        name : "Vega Color Cube Fluffy Sponge (BA-3/7)53gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : "130",
+                        strike : "False"
+                    } ,
+                    {
+                        image : "",
+                        name : "Vega Luxury Flower  Sponge (BA-3/75)76gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : "199",
+                        strike : "False"
+                    },
+                    {
+                        image : "",
+                        name : "Vega Mini sponge (BA-3/12)54gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : "99",
+                        strike : "False"
+                    },
+                    {
+                        image : "",
+                        name : "Vega The Orange Sponge(Ba-3/10)71gm",
+                        mkt : "Vega Industries Pvt.Ltd",
+                        price : "150",
+                        strike : "false"
+                    },
+                      
+                      
+                      
+                    
+                    
+                ]
+            }
+        },
+        {
+            catagoryImg : "https://www.netmeds.com/images/category/v1/3902/thumb/face_personal_care.jpg",
+            name : "Face Personal Care" ,
+            disc : "58" ,
+            catagories :
+            { 
+                subBanner : "https://www.netmeds.com/images/category/v1/3902/face_personal_care.jpg", 
+                data : 
+                [
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/414294/d_acne_soft_face_wash_100gm_0_1.jpg",
+                        name : "D Acne soft Face Wash 100gm",
+                        mkt : "Glenmark Phormaceuticals Ltd",
+                        price : "399",
+                        strike : "fales"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/346480/tvaksh_face_care_face_wash_60_gm_0_1.jpg",
+                        name : "Tvaksh Face care Face Wash 60 gm",
+                        mkt : "Abbott Helthcare Pvt.Ltd",
+                        price : "265",
+                        strike : "295"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/13095/himalaya_purifying_neem_face_wash_100_ml_0_2.jpg",
+                        name : "Himalaya purifying Neem face Wash 100ml",
+                        mkt : "The Himalaya Drug Company",
+                        price : "113",
+                        strike : "130"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/405495/himalaya_purifying_neem_face_wash_200_ml_0_2.jpg",
+                        name : "Himalaya Purifying Neem Face WAsh 200ml",
+                        mkt : "The Himalaya Drug Company",
+                        price : "197",
+                        strike : "210"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/405961/patanjali_saundarya_face_wash_60_gm_0.jpg",
+                        name : "Patanjali Saundarya Face WAsh 60 gm",
+                        mkt : "Patanjali Ayurved Ltd",
+                        price : "60",
+                        strike : "false"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/408646/patanjali_face_wash_lemon_honey_60_gm_0.jpg",
+                        name : "PAtanjali Face Wash -Lemon Honey 60 gm",
+                        mkt : "Patanjali Ayurved Ltd",
+                        price : "45",
+                        strike : "false"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/14049/garnier_men_acnofight_anti_pimple_face_wash_50_gm_0_4.jpg",
+                        name : "Garnier Men Acnofight anti Pimple Face Wash 50 gm",
+                        mkt : "Patanjali Ayurved Ltd",
+                        price : "83",
+                        strike : "99"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/412569/sebamed_clear_face_cleansing_foam_50_ml_0_1.jpg",
+                        name : "Sebamed Clear Face Cleansing Foam 50 ml",
+                        mkt : "Usv Private Ltd",
+                        price : "299",
+                        strike : "322"
+                    },
+                    {
+                        image : "",
+                        name : "Aroma Magic Activated Bamboo Charcoal Face Wash 100 ml",
+                        mkt : "Bloossom Kochhar Beauty Produ",
+                        price : "189",
+                        strike : "210"
+                    },
+                    {
+                        image : "",
+                        name : "Patanjali Saundarya Face Wash Neem Tulsi 100 gm",
+                        mkt : "Patanjali Ayurved Ltd",
+                        price : "80",
+                        strike : "false"
+                    },
+                    {
+                        image : "",
+                        name : "Himalaya Purifying Neem Face Wash  100 gm",
+                        mkt : "Patanjali Ayurved Ltd",
+                        price : "150",
+                        strike : "false"
+                    },
+                    
+
+                    
+                    
+                    
+                ]
+            }
+        }
+    ]
+
+}
+
+
+
+let MakeUp = {
+    bannerImg : "https://www.netmeds.com/images/category/v1/3431/make_up.jpg",
+    mastCata : 
+    [
+        {
+            catagoryImg : "https://www.netmeds.com/images/category/v1/3432/thumb/lips_0.jpg",
+            name : "Lips" ,
+            disc : 50 ,
+            catagories :
+            { 
+                subBanner : "https://www.netmeds.com/images/category/v1/3432/lips.jpg", 
+                data : 
+                [
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997289/charmacy_milano_stunning_longstay_liquid_lip_red_sangria_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Red Sangria)",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997288/charmacy_milano_stunning_longstay_liquid_lip_malva_plum_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Malva Plum)",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997287/charmacy_milano_stunning_longstay_liquid_lip_fuchsia_desire_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Fuchsia )",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997281/charmacy_milano_stunning_longstay_liquid_lip_love_punch_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Love Punch  )",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Lazy)",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997279/charmacy_milano_stunning_longstay_liquid_lip_brunette_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Brunette)5.6",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997278/charmacy_milano_stunning_longstay_liquid_lip_cherry_red_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Cherry Red)",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997277/charmacy_milano_stunning_longstay_liquid_lip_flamenco_red_5_6_ml_0_0.jpg",
+                        name : "Charmacy Milano stunning Longstay liguid Lip (Flamenco)",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 675,
+                        strike : 750 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(True )3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Rich Rose Wood )3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Plum)3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Razzle Dazzle)3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Cherry Red)3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695 ,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Berry Blast )3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Flamenco Red)3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997276/charmacy_milano_luxe_creme_lipstick_true_3_8_gm_0_0.jpg",
+                        name : "Charmacy Milano Luxe Creme Lipstick(Fuzzy wuzzy)3.8 gm",
+                        mkt : "Charmacy India Pvt .Ltd",
+                        price : 625,
+                        strike : 695,
+                    },
+
+                ]
+            }
+        },
+        {
+            catagoryImg : "https://www.netmeds.com/images/category/v1/3442/thumb/eyes_0.jpg",
+            name : "eyes" ,
+            disc : 83 ,
+            catagories :
+            { 
+                subBanner : "https://www.netmeds.com/images/category/v1/3442/eyes.jpg", 
+                data : 
+                [
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/853620/lakme_eyeconic_black_kajal_0_35_gm_0.jpg",
+                        name : "Lakme Eyeconic Kajal -Deep Black 0.35 gm",
+                        mkt : "Hindustan Unilever Ltd",
+                        price : 185,
+                        strike : "false"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/14205/himalaya_kajal_extra_smooth_1_gm_0.jpg",
+                        name : "Himalaya Kajal 1 gm",
+                        mkt : "The Himalaya Drug Company",
+                        price : 47,
+                        strike :50,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/829625/aroma_magic_under_eye_cream_20_gm_0.jpg",
+                        name : "Aroma magic Under Eye Cream 20 gm",
+                        mkt : "Blossom kochhar Beauty Produ",
+                        price :189,
+                        strike : 210,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/826667/hiphop_under_eye_pads_with_nourishing_gel_5_s_0.jpg",
+                        name : "HipHop UnderEye Pads with Nourishing Gel 5's",
+                        mkt : "Elegare Beuty  Pvt .ltd",
+                        price : 250,
+                        strike : "false"
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/13075/biotique_bio_kaajal_supreme_black_3_gm_0.jpg",
+                        name : "Biotique Bio kaajal -Superme Black 3 gm",
+                        mkt : "Bio Veda action Research com.. ",
+                        price :128 ,
+                        strike : 135,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/14705/l_oreal_paris_kajal_magique_supreme_me_black_0_35_gm_0.jpg",
+                        name : "L'Oreal Paris Kajal Magique Supereme Me Black 0.35 gm",
+                        mkt : "l'Oreal india Pvt .Ltd",
+                        price :240,
+                        strike :290,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/14480/lotus_natural_kajal_4_gm_0.jpg",
+                        name : "Lotus Natural kajal 4 gm",
+                        mkt : "Lotus herba;ls Pvt.Ltd",
+                        price : 137,
+                        strike : 155,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997381/charmacy_milano_sketch_eyeliner_dark_brunette_0_6_ml_0_0.jpg",
+                        name : "Charmary Milano Sketch EyelinerDark Brunette 0.6 gm",
+                        mkt : "Charmacy India vt.Ltd",
+                        price : 545,
+                        strike : 599,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997380/charmacy_milano_sketch_eyeliner_black_0_6_ml_0_0.jpg",
+                        name : "Charmacy Milano Skesh Eyeliner Black 0.6 gm",
+                        mkt : "Charmacy India Pvt.Ltd",
+                        price : 536,
+                        strike : 595,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997364/charmacy_milano_gradient_shadows_palatte_01_7_2_gm_0_1.jpg",
+                        name : "Charmacy Milano Gradient Shadows Palatte 03 7.2 gm",
+                        mkt : "Charmacy India Pvt.Ltd",
+                        price : 1035,
+                        strike : 1150,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997364/charmacy_milano_gradient_shadows_palatte_01_7_2_gm_0_1.jpg",
+                        name : "Charmacy Milano Gradient Shadows Palatte 02 7.2 gm",
+                        mkt : "Charmacy India Pvt.Ltd",
+                        price : 1035,
+                        strike : 1150,
+                    },
+                    {
+                        image : "https://www.netmeds.com/images/product-v1/150x150/997364/charmacy_milano_gradient_shadows_palatte_01_7_2_gm_0_1.jpg",
+                        name : "Charmacy Milano Gradient Shadows Palatte 01 7.2 gm",
+                        mkt : "Charmacy India Pvt.Ltd",
+                        price : 1035,
+                        strike : 1150,
+                    },
+                    
+                ]
+            }
+        }
+    ]
+}

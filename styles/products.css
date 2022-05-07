@@ -112,6 +112,7 @@ body{
     display: grid;
     grid-template-columns: 20% 78%;
     gap: 10px;
+    margin-bottom: 100px;
 }
 #appendProd{
     background-color: white;

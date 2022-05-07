@@ -6,9 +6,11 @@ function create(id){
 }
 
 import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
-import {sidebar} from "../components/export.js"
+import {sidebar,footer} from "../components/export.js"
+
 
 get("#sidebar").innerHTML = sidebar()
+get("#footerContainer").innerHTML = footer()
 
 // console.log(data)
 

@@ -72,8 +72,8 @@ function navbar(){
     <span><i  class="fa-solid rotate fa-caret-down"></i></span>
     <div class="alexa">
         <div id="points1">
-            <p><a id="a1" href="footer.html">Personal Care</a></p>
-            <p>Make-up</p>
+            <p>Personal Care</p>
+            <p >Make-up</p>
             <p>Hair</p>
             <p>Skin Care</p>
             <p>Tools & Appliances</p>
@@ -107,7 +107,7 @@ function navbar(){
     
     <div id="low">
         <div id="strip">
-            <p>COVID Essentials</p>
+            <p id="cE1234">COVID Essentials</p>
             <p>Diabetes</p>
             <p>Eyewear</p>
             <p>Ayush</p>
@@ -119,6 +119,7 @@ function navbar(){
             <p>Surgicals</p>
             <p>Sexual Wellness</p>
             <p>Treatments</p>
+            </div>
             </div>`
 }
 

@@ -6,11 +6,16 @@ function create(id){
 }
 
 import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
-import {sidebar,footer} from "../components/export.js"
+import {sidebar} from "../components/export.js"
+import {navbar} from "../components/navbar.js"
+import {footer} from "../components/footer.js"
+
+
+get("#navbar").innerHTML = navbar()
 
 get("#sidebar").innerHTML = sidebar()
-get("#footerContainer").innerHTML = footer()
-
+// get("#footerContainer").innerHTML = footer()
+get("#footer").innerHTML = footer()
 
 let dataFuncArr = [covidEssentials,personalCare,MakeUp];
 let loadData = localStorage.getItem("loadData") || ""

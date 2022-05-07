@@ -5,10 +5,34 @@ function create(id){
     return document.createElement(id)
 }
 
-import {covidEssentials} from "../components/data.js"
+import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
 
-let data = covidEssentials()
+
 // console.log(data)
+
+let dataFuncArr = [covidEssentials,personalCare,MakeUp];
+let loadData = localStorage.getItem("loadData1") || ""
+let data;
+let backUp;
+if(loadData == "cE"){
+    data = covidEssentials();
+    backUp = 0;
+}else if(loadData == "pC"){
+    data = personalCare();
+    backUp = 1;
+}else if(loadData == "mU"){
+    data = MakeUp();
+    backUp = 2;
+}else{
+    let ran = Math.floor(Math.random()*3)
+    data = dataFuncArr[ran]()
+    backUp = ran;
+}
+
+
+
+
+
 let buttonCreateDivCount = 0;
 
 function displayUI({catagories : {data, subBanner}, name}){
@@ -19,7 +43,8 @@ function displayUI({catagories : {data, subBanner}, name}){
     appendPrducts(data);
 
 }
-displayUI(data.mastCata[localStorage.getItem("idToAcessProducts")])
+backUp = localStorage.getItem("idToAcessProducts")
+displayUI(data.mastCata[backUp])
 
 function appendPrducts(data){
     let body = get("#appendProd")
@@ -171,4 +196,48 @@ function displayBannerImage(data,name){
     }
     body.append(innerDat);
 }
+
+
+let sortButtons = get("#buttonsToSort>div");
+sortButtons = sortButtons.children
+sortButtons[0].style.color = "#24aeb1"
+sortButtons[0].style.border = "1px solid #24aeb1"
+for(let x of sortButtons){
+    x.addEventListener("click",sortingCall);
+}
+
+
+function buttonColor(event){
+    for(let x of sortButtons){
+        x.style.color = "black"
+        x.style.border = "none"
+    }
+    event.style.color = "#24aeb1"
+    event.style.border = "1px solid #24aeb1"
+}
+
+function sortingCall(event){
+    let dataLocal = dataFuncArr[backUp]();
+    let buttonVal = event.target.value
+    buttonColor(event.target);
+    console.log(backUp,dataLocal.mastCata[backUp])
+    if(buttonVal == "h"){
+        dataLocal.mastCata[backUp].catagories.data.sort((a,b) =>b.price-a.price)
+        displayUI(dataLocal.mastCata[backUp])
+    }else if(buttonVal == "l"){
+        dataLocal.mastCata[backUp].catagories.data.sort((a,b) =>a.price-b.price)
+        displayUI(dataLocal.mastCata[backUp])
+    }else if(buttonVal == "p"){
+        displayUI(data.mastCata[backUp])
+    }else if(buttonVal == "d"){
+        dataLocal.mastCata[backUp].catagories.data.sort((a,b) =>{
+            a = a.price - (a.strike || 0)
+            b = b.price - (b.strike || 0)
+            return a-b 
+        })
+        displayUI(dataLocal.mastCata[backUp])
+    }
+
+}
+
 

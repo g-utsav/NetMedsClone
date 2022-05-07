@@ -829,3 +829,35 @@
 </html>
 
 <script type="module" src="../scripts/index.js"></script>
+
+
+
+<script type="module">
+    let cont = document.querySelector("#points1");
+    cont = cont.children
+    for(let x of cont){
+        x.addEventListener("click",productsCall);
+    }
+
+    let subCont = document.querySelector("#strip")
+    subCont = subCont.children
+    for(let x of subCont){
+        console.log(x)
+        x.addEventListener("click",productsCall);
+    }
+
+    function productsCall(){
+        let e = event.target.innerText;
+        let key = ""
+        if(e == "Personal Care"){
+            key = "pC"
+        }else if(e == "Make-up"){
+            key = "mU"
+        }else if(e == "COVID Essentials"){
+            key = "cE"
+        }
+
+        localStorage.setItem("loadData",key)
+        window.location.href = "./products.html"
+    }
+</script>

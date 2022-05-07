@@ -3,12 +3,12 @@
     border: 1px solid black;
 } */
 body{
-    background-color: #f3f3f3;
+    background-color: #f3f3f3 !important;
 }
 
 #bannerImg>img{
-    border-radius: 10px;
-    width: 100%;
+    border-radius: 10px !important;
+    width: 100% !important;
 }
 #bannerImg{
     height: 180px;
@@ -22,7 +22,7 @@ body{
     margin-left: 42px;
     margin-top: 30px;
     color: #1d2135;
-    font-weight: 550;
+    font-weight: 550 !important;
     
     /* font-size: 110%; */
 }
@@ -43,7 +43,7 @@ body{
 #sortByCatagory>h5{
     margin: 10px;
     margin-bottom: 25px;
-    font-size: 85%;
+    font-size: 85% !important;
     color: rgb(85, 85, 85);
 }
 #sortByCatagory>div{
@@ -54,7 +54,7 @@ body{
 #sortByCatagory>div>div{
     padding: 10px;
     width: 130px;
-    height: 130px;
+    height: 160px;
     border: 1px solid rgb(190, 190, 190);
     border-radius: 10px;
     text-align: center;
@@ -68,32 +68,32 @@ body{
     margin: auto;
 }
 #sortByCatagory>div>div>h6:last-child{
-    color: #84be52;
-    font-size: 68%;
+    color: #84be52 !important;
+    font-size: 68% !important;
 }
 
 
 #shortingFunc{
-    height: 100px;
+    height: 100px !important;
 }
 #shortingFunc>p{
     margin: auto;
-    margin-left: 5px;
-    margin-bottom: 20px;
-    font-size: 105%;
+    margin-left: 5px !important;
+    margin-bottom: 20px !important;
+    font-size: 105% !important;
 }
 
 #buttonsToSort{
     margin: auto;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-bottom: 20px !important;
+    margin-right: 10px !important;
 }
 #buttonsToSort>*{
     margin: 1px;
 }
 #buttonsToSort>div>button{
     padding: 3px 15px;
-    font-size: 75%;
+    font-size: 75% !important;
     border: none;
     border-radius: 5px;
     background-color: white;
@@ -112,6 +112,7 @@ body{
     display: grid;
     grid-template-columns: 20% 78%;
     gap: 10px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 #appendProd{
@@ -122,7 +123,7 @@ body{
 #appendProd>h5{
     margin: 10px;
     margin-bottom: 25px;
-    font-size: 85%;
+    font-size: 85% !important;
     color: rgb(85, 85, 85);
 }
 #appendProd>div{
@@ -154,29 +155,29 @@ body{
 }
 #productAddToCartButton>h4{
     margin: auto;
-    font-size: 107%;
+    font-size: 107% !important;
 }
 #appendProd>div>div>h5{
     height: 40px;
-    font-size: 101%;
+    font-size: 101% !important;
 }
 #strikedOffPrice,#mkt{
     color: rgb(102, 102, 102);
-    font-size: 85%;
-    font-weight: 510;
+    font-size: 85% !important;
+    font-weight: 510 !important;
     margin: 10px auto;
 }
 #strikedOffPrice>span{
     text-decoration: line-through;
 }
 #appendProd>div>div>h4{
-    font-size: 87%;
+    font-size: 87% !important;
     color: rgb(102, 102, 102);
     margin: 10px auto;
 }
 #appendProd>div>div>h4>span{
-    font-size: 125%;
-    color: #ef4281;
+    font-size: 125% !important;
+    color: #ef4281 !important;
 
 }
 #minusButton,#plusButton{
@@ -186,13 +187,13 @@ body{
     border: none;
     background-color: white;
     border: 1px solid rgb(199, 199, 199);
-    font-size: 130%;
-    font-weight: 0;
+    font-size: 130% !important;
+    font-weight: 0 !important;
     text-align: center;
     color: rgb(102, 102, 102);
 }
 #productCount{
     display: inline;
     margin: 0px 10px;
-    font-size: 105%;
+    font-size: 105% !important;
 }

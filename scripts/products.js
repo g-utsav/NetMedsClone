@@ -6,7 +6,9 @@ function create(id){
 }
 
 import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
+import {sidebar} from "../components/export.js"
 
+get("#sidebar").innerHTML = sidebar()
 let dataFuncArr = [covidEssentials,personalCare,MakeUp];
 let loadData = localStorage.getItem("loadData") || ""
 let data;

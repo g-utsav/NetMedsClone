@@ -1,0 +1,194 @@
+
+/* *{
+    border: 1px solid black;
+} */
+body{
+    background-color: #f3f3f3;
+}
+
+#bannerImg>img{
+    border-radius: 10px;
+    width: 100%;
+}
+#bannerImg{
+    height: 180px;
+    /* margin: 5px; */
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 1px;
+}
+#bannerImg>h2{
+    margin-left: 42px;
+    margin-top: 30px;
+    color: #1d2135;
+    font-weight: 550;
+    
+    /* font-size: 110%; */
+}
+
+#shortingFunc{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+#sortByCatagory{
+    padding:10px 20px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+#sortByCatagory>h5{
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 85%;
+    color: rgb(85, 85, 85);
+}
+#sortByCatagory>div{
+   display: flex;
+   gap: 13px;
+   margin-bottom: 13px;
+}
+#sortByCatagory>div>div{
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    text-align: center;
+}
+#sortByCatagory>div>div *{
+    margin: 5px;
+}
+#sortByCatagory>div img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+#sortByCatagory>div>div>h6:last-child{
+    color: #84be52;
+    font-size: 68%;
+}
+
+
+#shortingFunc{
+    height: 100px;
+}
+#shortingFunc>p{
+    margin: auto;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 105%;
+}
+
+#buttonsToSort{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#buttonsToSort>*{
+    margin: 1px;
+}
+#buttonsToSort>button{
+    padding: 3px 15px;
+    font-size: 75%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+#buttonsToSort>button:hover{
+    border: 1px solid #24aeb1;
+    color: #24aeb1;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+#midBody{
+    display: grid;
+    grid-template-columns: 20% 78%;
+    gap: 10px;
+}
+#appendProd{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#appendProd>h5{
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 85%;
+    color: rgb(85, 85, 85);
+}
+#appendProd>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+#appendProd>div>div{
+    padding: 10px 10px;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 10px;
+    
+}
+#appendProd>div>div>img{
+    display: block;
+    margin: auto;
+}
+
+#productAddToCartButton{
+    width: 95%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background-color: #24aeb1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#productAddToCartButton>h4{
+    margin: auto;
+    font-size: 107%;
+}
+#appendProd>div>div>h5{
+    height: 40px;
+    font-size: 101%;
+}
+#strikedOffPrice,#mkt{
+    color: rgb(102, 102, 102);
+    font-size: 85%;
+    font-weight: 510;
+    margin: 10px auto;
+}
+#strikedOffPrice>span{
+    text-decoration: line-through;
+}
+#appendProd>div>div>h4{
+    font-size: 87%;
+    color: rgb(102, 102, 102);
+    margin: 10px auto;
+}
+#appendProd>div>div>h4>span{
+    font-size: 125%;
+    color: #ef4281;
+
+}
+#minusButton,#plusButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    font-size: 130%;
+    font-weight: 0;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+#productCount{
+    display: inline;
+    margin: 0px 10px;
+    font-size: 105%;
+}

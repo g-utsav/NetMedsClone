@@ -94,19 +94,26 @@
 </head>
 <body>
     
+    <div id="header"></div>
     <div id="midBody">
         <div id="sidebar"></div>
         <div id="productsBody">
             <div id="bannerImg"></div>
+
+            
             <div id="shortingFunc">
-                <p>Showing</p>
-                <div>
+                <p>Showing <b>20</b> of <b>100</b> items</p>
+                <div id="buttonsToSort">
                     <span>Sort By:</span>
-                    <button>High To Low</button>
-                    <button>Low To High</button>
-                    <button>Discount</button>
+                    <div>
+                        <button value="p">Popularity</button>
+                        <button value="h">High To Low</button>
+                        <button value="l">Low To High</button>
+                        <button value="d">Discount</button>
+                    </div>
                 </div>
             </div>
+
             <div id="appendProd"></div>
         </div>
     </div>

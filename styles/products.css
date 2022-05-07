@@ -91,14 +91,17 @@ body{
 #buttonsToSort>*{
     margin: 1px;
 }
-#buttonsToSort>button{
+#buttonsToSort>div>button{
     padding: 3px 15px;
     font-size: 75%;
     border: none;
     border-radius: 5px;
     background-color: white;
 }
-#buttonsToSort>button:hover{
+#buttonsToSort>div{
+    display: inline;
+}
+#buttonsToSort>div>button:hover{
     border: 1px solid #24aeb1;
     color: #24aeb1;
     margin-left: -1px;

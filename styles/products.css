@@ -73,7 +73,37 @@ body{
 }
 
 
+#shortingFunc{
+    height: 100px;
+}
+#shortingFunc>p{
+    margin: auto;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 105%;
+}
 
+#buttonsToSort{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#buttonsToSort>*{
+    margin: 1px;
+}
+#buttonsToSort>button{
+    padding: 3px 15px;
+    font-size: 75%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+#buttonsToSort>button:hover{
+    border: 1px solid #24aeb1;
+    color: #24aeb1;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
 
 #midBody{
     display: grid;

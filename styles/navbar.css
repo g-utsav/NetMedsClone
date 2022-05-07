@@ -72,10 +72,12 @@ margin-top: -20px;
 i{
 font-size: 20px;
 padding-left: 10px;
-color: white;
+color: white !important;
+
 }
 .one{
     padding-left: 10px;
+    color: white !important;
 }
 #down2{
     display: flex;
@@ -120,10 +122,12 @@ color: white;
     opacity: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: rgb(243,247,251);
+    
 }
 
 #down2:hover>#alexa>#points{
     opacity: 1;
+    z-index: 2;
 }
 #a{
     text-decoration: none;
@@ -146,24 +150,24 @@ color: white;
 .fa-solid{
     margin-top: 1px;
     font-size: 16px;
+    color: white;
 }
 #strip{
     height: 60px;
-    width: 100%;
- margin-left: 170px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
     display: flex;
     gap: 25px;
     background-color: rgb(243,247,251);
     cursor: pointer;
+    font-size: 13px;
+    padding-top: 10px;
+    color: black;
 }
 #low{
     background-color: rgb(243,247,251);
 }
-
-
-
-
-
 
 #down5{
     position: relative ;
@@ -188,6 +192,7 @@ color: white;
 
 #down5:hover>.alexa>#points1{
     opacity: 1;
+    z-index: 3;
     
 }
 #a1{
@@ -235,6 +240,7 @@ color: white;
 
 #down6:hover>.alexa>#points2{
     opacity: 1;
+    z-index: 4;
     
 }
 .a2{
@@ -265,6 +271,7 @@ color: white;
 #si{
     position: relative;
     cursor: pointer;
+    color: white !important;
 }
 
 
@@ -309,5 +316,8 @@ height: 35px;
 }
 #n3>h4{
 color: rgb(238,67,128);
+}
+#tango>span{
+    color: skyblue !important;
 }
 

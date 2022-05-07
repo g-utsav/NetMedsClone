@@ -1,10 +1,9 @@
 #footer{
     height: 1300px;
-    width: 100%;
-   
+    width: 96%;
     margin: auto;
     background-color: rgb(243,247,251);
-padding: 1%;
+    padding: 20px;
 }
 p , li{
   color: rgb(128, 123, 123);
@@ -19,15 +18,16 @@ span{
     margin-top: 50px;
 }
 hr{
-    width: 85%;
+    width: 90%;
     color: gray;
     background-color: gray;
+    margin: auto;
 }
 #between{
     height: 640px;
-    width: 95%;
-
-    margin: auto;
+    width: 107% !important;
+    background-color: white;
+    margin-left: -43px;
 }
 #cat{
     height: 410px;
@@ -75,4 +75,7 @@ border-bottom-color:gray ;
     width: 85%;
     margin: auto;
     justify-content: space-between;
+}
+#ul{
+    margin-left: 30px;
 }

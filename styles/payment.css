@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    background-color: #24aeb1;
+    width: 100%;
+    height: 90px;
+}
+#tag{
+    width: 130px;
+    height: 80%;
+    margin-left: 160px;
+    padding-top: 15px;
+}
+
+#main{
+    width: 65%;
+    height: 750px;
+    margin: auto;
+}
+#order_review{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151b39;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#order_review div{
+    width: 300px;
+}
+
+#order_review div h2{
+    padding-left: 10px;
+    color: white;
+}
+
+#payment{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5PX;
+}
+
+.upi{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5PX;
+}
+
+.payment{
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5PX;
+}
+
+#data{
+    width: 70%;
+}
+
+#price{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 230px;
+    width: 32%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#main2{
+    display:  flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ .headline{
+    color: gray;
+    padding-left: 10px;
+}
+
+ .discount{
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#saving{
+    margin: auto;
+    background-color: 
+    #f3f8ec;
+    height: 35px;
+    padding: 2px;
+    width: 95%;
+    margin-top: 20px;
+    
+    /* text-align: center; */
+    color: green;
+}
+.imgpay{
+    width: 40px;
+    height: 40px;
+}
+.imgtag{
+    display: flex;
+    width: 97%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.imgtag p{
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    width: 180px;
+}
+.check{
+    margin-top: 6px;
+    color: red;
+    text-align: end;
+}
+
+button{
+    background-color: teal;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 170px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

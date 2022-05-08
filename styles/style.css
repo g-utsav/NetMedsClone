@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    background-color: #24aeb1;
+    width: 100%;
+    height: 90px;
+}
+#tag{
+    width: 130px;
+    height: 80%;
+    margin-left: 160px;
+    padding-top: 15px;
+}
+
+#main{
+    width: 65%;
+    height: 750px;
+    margin: auto;
+}
+#order_review{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151b39;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#order_review div{
+    width: 300px;
+}
+
+#order_review div h2{
+    padding-left: 10px;
+    color: white;
+}
+
+#main2{
+display:  flex;
+justify-content: space-between;
+}
+
+#data{
+    height: 700px;
+    width: 65%;
+}
+
+#price{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 300px;
+    width: 32%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Address{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5PX;
+}
+
+.Show_products{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5PX;
+}
+
+.discount{
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#saving{
+    margin: auto;
+    background-color: 
+    #f3f8ec;
+    height: 35px;
+    padding: 2px;
+    width: 95%;
+    margin-top: 20px;
+    
+    /* text-align: center; */
+    color: green;
+}
+
+#pay{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#pay div{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 10px;
+}
+#saving p{
+    padding-left: 10px;
+ }
+ 
+.headline{
+    color: gray;
+    padding-left: 10px;
+}
+button{
+    background-color: 
+    #24aeb1;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+input{
+    width: 500px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#pay p{
+    margin: 2%;
+}
+
+.Address{
+   padding-left: 10px;
+    
+}
+
+
+.AA{
+    display: flex;
+    width: 100%;
+    height: 170px;
+}
+
+.BB{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    height: 100%;
+}
+
+.DD img{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.CC{
+    width: 30%;
+    height: 100%;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+.EE p{
+    margin: 0%;
+    color: gray;
+}
+
+.CC h2{
+    margin: 5px;
+    text-align: end;
+    color: palevioletred;
+}
+
+.CC h3{
+    margin: 5px;
+    text-align: end;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.CC h4{
+    text-align: end;
+    margin-top: 25%;
+    
+}
+
+
+.heading{
+    color: grey;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+hr{
+    border-top: 1px dotted gray
+}

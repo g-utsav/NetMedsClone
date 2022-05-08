@@ -38,8 +38,7 @@ function navbar(){
     </div>
     
     
-    <span><i class="fa-solid fa-user"></i><span class="one"></span id="log"><a href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span>    
-    
+    <span class="log"><i class="fa-solid fa-user"></i><span class="one log"><a class="log" href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span></span>       
     </div>
     </div>
     
@@ -132,4 +131,9 @@ function shopcart(){
     })
     
 }
+
+
+
+
+
 export {navbar,shopcart}

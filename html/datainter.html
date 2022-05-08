@@ -62,7 +62,7 @@
 
 
 
-    let arr=[]
+    let arr= JSON.parse(localStorage.getItem("data")) || []
 function func(){
 
 //  console.log(arr.email)
@@ -96,19 +96,6 @@ console.log(arr.email)
 
 }
 
-
-let data_one = JSON.parse(localStorage.getItem("data"))
-console.log(data_one)
-
-let alexa = (para)=>{
-    return document.createElement(para)
-}
-
-let name = document.createElement("p")
-name.innerText = data_one.first
-
-let log  = document.querySelector("log")
-log.textContent = data_one.first
 
 
 </script>

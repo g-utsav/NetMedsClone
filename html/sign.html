@@ -73,11 +73,7 @@ document.getElementById("con").append(box,box1)
    
 
    function fun(){
-    //    let a=JSON.parse(localStorage.getItem("data"))
-    //    a.forEach(function(index,el){
-    //    for(var i=0;i<el.length;i++){
-    //    el.splice(index,i)}
-    //    })
+
     localStorage.removeItem('data');   
        window.location.href="index.html"
    }
@@ -101,6 +97,7 @@ arr.forEach(function(el){
    p.innerText=el.title
    img.src=el.image
 box.append(img,p)
+// console.log(p)
 document.getElementById("upper").append(box)
 
 })

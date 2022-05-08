@@ -6,6 +6,7 @@
 #carouselExampleIndicators{
     padding: 0px 16px;
     height: 300px;
+    margin-top: 20px;
 }
 .carousel-inner img{
     height: 320px;
@@ -1148,12 +1149,13 @@
 #Advice{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 210px;
+    margin-bottom: 160px;
     padding: 20px 32px;
     position: relative;
     height: 150px;
     color: white;
     background-color: #ef4281;
+    
 
 }
 #Advice>h2{

@@ -1,3 +1,8 @@
+import {navbar} from "../components/navbar.js";
+document.getElementById("navbar").innerHTML= navbar();
+
+import {footer} from "../components/footer.js";
+document.getElementById("footer").innerHTML= footer();
 document.addEventListener("click", e =>{
     const isDropdownButton = e.target.matches("[db]")
     if(!isDropdownButton && e.target.closest ("[down2]") != null)return

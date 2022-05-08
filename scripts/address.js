@@ -40,5 +40,4 @@ document.addEventListener("click", e =>{
       }
       localStorage.setItem("address",JSON.stringify(obj));
       window.location.href="./pay.html";
-      alert("heloo")
   }

@@ -109,13 +109,7 @@ document.addEventListener("click", e =>{
 })
 
 
-let datas = JSON.parse(localStorage.getItem("cartData"))
-console.log('datas:', datas)
 
-datas.map(({name})=>{
-    let pro = document.querySelector("#t1")
-    pro.textContent = name
-})
 
 
 

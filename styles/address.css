@@ -1,3 +1,7 @@
+.form-control{
+    height: 38px;
+}
+
 body{
     background-color: rgb(232, 232, 232);
 }
@@ -88,7 +92,7 @@ body{
     margin-top: 30px;
     background-color: white;
 }
-input{
+.formInput{
     background-color: white;
     border: none;
     border-bottom: 1px solid gray;

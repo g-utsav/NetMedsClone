@@ -141,12 +141,14 @@ function shopcart(){
     console.log('datax:', datax)
 let x  = document.querySelector("#t1")
 let x1  = document.querySelector("#t2")
-
+let x2  = document.querySelector("#t3")
 for(let y in datax){
 
        x.textContent = datax[y].name
        console.log('y:', datax[y].name)
       x1.textContent = datax[y].price
+
+     x2.textContent = `RS.${datax[y].price}`
 }
 
     

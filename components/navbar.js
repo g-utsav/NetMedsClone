@@ -132,4 +132,4 @@ function shopcart(){
     })
     
 }
-export {navbar}
+export {navbar,shopcart}

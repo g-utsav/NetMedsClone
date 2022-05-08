@@ -38,7 +38,7 @@ function navbar(){
     </div>
     
     
-    <span><i class="fa-solid fa-user"></i><span class="one"></span id="log"><a href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span>    
+    <span><i class="fa-solid fa-user"></i><span class="one"></span id="log"><a id="a" href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span>    
     
     </div>
     </div>

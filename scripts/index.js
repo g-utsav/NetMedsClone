@@ -144,3 +144,22 @@ $('.carousel').carousel({
           console.log("hii")
       };
 
+
+
+   
+  let arr=JSON.parse(localStorage.getItem("data"))
+  if(arr!==null){
+  
+  
+       let final =document.getElementById("a")
+  
+         arr.forEach(function(el){
+          console.log(el.first)
+           
+          // let a=document.createElement("p")
+          // a.innerText=el.first
+          final.innerText=el.first
+          final.href="sign.html"
+  
+         })
+      }  

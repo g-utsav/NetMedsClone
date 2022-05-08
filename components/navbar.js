@@ -20,7 +20,7 @@ function navbar(){
     
     <div id="up3">
         <span><i class="fa-solid fa-file-lines"></i><span class="one"><a style="color: white;text-decoration: none;" href="upload.html">Upload</a></span></span>
-    <span id="si"><i class="fa-solid fa-cart-shopping"></i><span class="one">Cart</span></span>
+    <span id="si"><i class="fa-solid fa-cart-shopping cartt"></i><span class="one cartt">Cart</span></span>
     <div id="siri">
         <div id="n1">
             <p>ORDER SUMMARY</p>
@@ -123,4 +123,13 @@ function navbar(){
             </div>`
 }
 
+
+function shopcart(){
+    document.querySelectorAll(".cartt").forEach(el=>{
+        el.addEventListener("click",function(){
+            window.location.href="./cart.html"
+        })
+    })
+    
+}
 export {navbar}

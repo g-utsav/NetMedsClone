@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 70px;
+    border: 1px solid;
+    height: 0;
+    margin-top: 20px;
+}
+.flex p{
+    font-size: xx-small;
+}
+#f1{
+    padding-top: 20px;
+}
+#header{
+    height:70px;
+    border-radius: 15px;
+    background-color: #151B39;
+    color: white;
+    padding: 0 10px;
+}
+/* *{
+    border: 1px solid;
+} */
+#can{
+    width: 80%;
+    margin: auto;
+}
+#l{
+    width: 70%;
+    height: auto;
+    background-color: rgb(232, 232, 232);
+}
+#r{
+    width: 29%;
+    height: auto;
+    margin-left: 20px;
+    background-color: rgb(232, 232, 232);
+    margin-top: 20px;
+}
+#box{
+    display: flex;
+}
+#med{
+    font-size: medium;
+}
+.pad{
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+}
+.gray{
+    background-color: white;
+    margin-bottom: 20px;
+}
+.rou{
+    border-radius: 10px;
+    padding: 10px;
+}
+#pay{
+    margin-top: 30px;
+     width: 150px;
+     border-radius: 6px;
+     color: white;
+     background-color: #24AEB1;
+     border: none;
+}
+.high{
+    color: red;
+}
+.hello{
+    text-decoration: line-through;
+}
+#detail{
+    border: 1px solid;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+input{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: large;
+    text-align: center;
+    margin: 20px 15px;
+    width: 90%;
+}
+button{
+    margin-left: 35%;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    background-color: #24AEB1;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #con{
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            /* border: 1px solid red; */
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10%;
+            /* background-color:cyan; */
+        }
+        #con>div{
+            margin-left: 40px;
+        }
+        #upper{
+            display: flex;
+            margin-top: 40px;
+            width: 60%;
+            gap:40px;
+            margin-left: 25%;
+            margin-bottom: -90px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+        <div id="upper"></div>
+        <div id="con">
+    <div id="inf"></div>
+    <div id="per"></div>
+    </div>
+    <br>
+    <br>
+    <button onclick="fun()">LOG OUT</button>
+    </center>
+</body>
+</html>
+<script>
+   let detail=JSON.parse(localStorage.getItem("data"))
+   let box1=document.getElementById("per")
+
+   detail.forEach(function(el){
+let box=document.getElementById("inf")
+// let box1=document.getElementById("per")
+let email=document.createElement("p")
+let first=document.createElement("p")
+let last=document.createElement("p")
+email.innerText=`Email :${el.email}`
+let p1=document.createElement("h5")
+p1.innerText="EMAIL:"
+let name=document.createElement("h5")
+name.innerText="NAME"
+let p2=document.createElement("h3")
+p2.innerText="LOGIN INFORMATION"
+first.innerText=`Name :${el.first+el.last}`
+let gender=document.createElement("p")
+gender.innerText="Gender :No data"
+let h3=document.createElement("h3")
+h3.innerText="PERSONAL INFORMATION"
+// last.innerText=`Last Name :${el.last}`
+box.append(p2,p1,email,name,first)
+box1.append(h3,gender)
+document.getElementById("con").append(box,box1)
+   })
+   
+
+   function fun(){
+    //    let a=JSON.parse(localStorage.getItem("data"))
+    //    a.forEach(function(index,el){
+    //    for(var i=0;i<el.length;i++){
+    //    el.splice(index,i)}
+    //    })
+    localStorage.removeItem('data');   
+       window.location.href="index.html"
+   }
+
+let arr=[
+    {image:"https://www.netmeds.com/msassets/images/icons/payment_history.svg",title:"payment methods",
+
+    },
+    {image:"https://www.netmeds.com/msassets/images/icons/medicine_orders.svg",title:"Medicine Orders",
+
+    },
+    {image:"https://www.netmeds.com/msassets/images/icons/rewards.svg",title:"My Rewards",
+
+    },
+
+]
+arr.forEach(function(el){
+  let box=document.createElement("div")
+  let p=document.createElement("p")
+   let img=document.createElement("img")
+   p.innerText=el.title
+   img.src=el.image
+box.append(img,p)
+document.getElementById("upper").append(box)
+
+})
+
+
+</script>

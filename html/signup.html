@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       #main{
+          display: flex; 
+          width: 70%;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          margin: auto;
+          height: 500px;
+          gap: 30px;
+          margin-top: 30px;
+          border-radius: 20px;
+
+       }
+       #signup{
+           width: 70%;
+           /* margin-top: 5%; */
+           /* background-color: aqua; */
+
+       }
+       #input{
+           width: 80%;
+           border:none;
+           height: 30px;
+
+       }
+       #button{
+           width: 88%;
+           margin-left: 3%;
+           height: 6%;
+           border: none;
+           color: white;
+           background-color: blueviolet;
+        
+       }
+       img{
+           height: 100%;
+       }
+       #sign{
+           margin-top: 80px;
+       }
+       
+   </style>
+
+</head>
+<body>
+    <div id="main">
+  <div id="image">
+      <img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"/>
+  </div>
+<div id="signup">
+<h3 id="sign">Sign In / Sign Up</h3>
+<p>Sign up or sign in to access your orders, special offers, health tips and more!</p>
+<!-- <br>
+<br> -->
+<h3>PHONE NUMBER</h3>
+<h3>+91 | <input id="input" type="number" placeholder="Enter your mobile no"/></h3>
+ <p id="otp"></p>
+ <div id="pass"></div>
+ <!-- <input id="pass" type="number" placeholder="Inter otp"/> -->
+<button id="button" onclick="func()">Resister mobile no </button>
+
+
+
+</div>
+
+    </div>
+</body>
+</html>
+<script>
+function func(){
+
+// console.log("hello")
+let mo=[]
+let a=document.getElementById("input").value
+if(a===""){
+    alert("Enter mobile Number")
+}
+
+else{let obj={mobile:a}
+    mo.push(obj)
+    localStorage.setItem("mobile",JSON.stringify(mo))
+    window.location.href="datainter.html"
+}
+
+
+
+}
+
+</script>

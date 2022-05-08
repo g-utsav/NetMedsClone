@@ -1,0 +1,327 @@
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar{
+height:180px;
+width: 100%;
+background-color: rgb(50,174,177)!important;
+margin-top: -20px;
+}
+a{
+    text-decoration: none !important;
+    color: #ffff;
+}
+#up{
+    height: 70px;
+    width: 100%;
+    margin-top:  20px; ;
+    margin-bottom: 15px;
+    display: flex;
+}
+#up1{
+    height: 60px;
+    width: 180px;
+    margin-left: 120px;
+}
+#up1>img{
+    height: 50px;
+    width: 150px;
+   
+}
+#up2{
+    height: 60px;
+    width: 600px;
+  margin-top: 10px;
+    margin-left: 30px;
+}
+#up3{
+    height: 60px;
+    width: 500px;
+    margin-left: 0px; 
+    margin-top: 15px;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#down{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding-left: 220px;
+    gap: 30px;
+}
+#down>div{
+    height: 60px;
+    width: 180px;
+}
+#input{
+    height: 50px;
+    width: 600px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#up3>span{
+    padding-left: 25px;
+    color: white;
+
+}
+i{
+font-size: 20px;
+padding-left: 10px;
+color: white !important;
+
+}
+.one{
+    padding-left: 10px;
+    color: white !important;
+}
+#down2{
+    display: flex;
+}
+#down3{
+    display: flex;
+}
+#down4{
+    display: flex;
+}
+#down5{
+    display: flex;
+}
+#down6{
+    display: flex;
+}
+#down2 img,#down3 img,#down4 img,#down5 img,#down6 img{
+    height: 40px;
+    width: 60px;
+}
+#down2:hover >span .rotate,#down5:hover >span .rotate,#down6:hover >span .rotate{
+    transform: rotateX(180deg);
+}
+
+#down2{
+    position: relative ;
+ 
+}
+.head{
+    color: rgb(223, 243, 234);
+    cursor: pointer;
+  
+}
+#points{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    left: 40%;
+    width: 200px;
+  height: 100px;
+  bottom: 10%;
+    opacity: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(243,247,251);
+    
+}
+
+#down2:hover>#alexa>#points{
+    opacity: 1;
+    z-index: 2;
+}
+#a{
+    text-decoration: none;
+    color: black;
+}
+#a:hover{
+    color: rgb(120, 191, 220) ;
+}
+#points>p{
+ padding-left: 10px;
+ padding-top: 15px;
+
+    font-size: 14px;
+}
+#points>p:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(120, 191, 220) ;
+}
+.fa-solid{
+    margin-top: 1px;
+    font-size: 16px;
+    color: white;
+}
+#strip{
+    height: 60px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    gap: 25px;
+    background-color: rgb(243,247,251);
+    cursor: pointer;
+    font-size: 13px;
+    padding-top: 10px;
+    color: black;
+}
+#low{
+    background-color: rgb(243,247,251);
+}
+
+#down5{
+    position: relative ;
+ 
+}
+.head{
+    color: rgb(223, 243, 234);
+  
+}
+#points1{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    left: 40%;
+    width: 170px;
+  height: 330px;
+  bottom: 10%;
+    opacity: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(243,247,251);
+}
+
+#down5:hover>.alexa>#points1{
+    opacity: 1;
+    z-index: 3;
+    
+}
+#a1{
+    text-decoration: none;
+    color: black;
+}
+#a1:hover{
+    color: rgb(120, 191, 220) ;
+}
+#points1>p{
+ padding-left: 15px;
+ padding-top: 5px;
+
+    font-size: 14px;
+}
+#points1>p:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(120, 191, 220) ;
+}
+
+
+
+
+#down6{
+    position: relative ;
+ 
+}
+.head{
+    color: rgb(223, 243, 234);
+  
+}
+#points2{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    left: 40%;
+    width: 150px;
+  height: 120px;
+  bottom: 10%;
+    opacity: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(243,247,251);
+}
+
+#down6:hover>.alexa>#points2{
+    opacity: 1;
+    z-index: 4;
+    
+}
+.a2{
+    text-decoration: none !important;
+    color: black !important;
+}
+.a2:hover{
+    color: rgb(120, 191, 220) !important ;
+}
+#points2>p{
+ padding-left: 15px;
+ padding-top: 5px;
+
+    font-size: 14px;
+}
+#points2>p:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(120, 191, 220) ;
+}
+#rotate{
+    transition: 0s linear;
+}
+
+#up3{
+    position: relative;
+}
+#si{
+    position: relative;
+    cursor: pointer;
+    color: white !important;
+}
+
+
+#siri{
+    height: 140px;
+    width: 320px;
+    position: absolute;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(243,247,251);
+    top: 60%;
+    border-radius:  10px; 
+    padding: 10px;
+    opacity: 0;
+}
+    #si:hover+#siri{
+    opacity: 1;
+    z-index: 1;
+}
+
+#n1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#n2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#n3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#n3>button{
+border: 0px;
+border-radius: 10px;
+background-color: rgb(50,174,177);
+color: white;
+width: 160px;
+height: 35px;
+}
+#n3>h4{
+color: rgb(238,67,128);
+}
+#tango>span{
+    color: skyblue !important;
+}
+

@@ -1,145 +1,3 @@
-#navbar{
-height:180px;
-width: 100%;
-background-color: rgb(50,174,177);
-}
-#up{
-    height: 70px;
-    width: 100%;
-    margin-top:  20px; ;
-    margin-bottom: 15px;
-    display: flex;
-}
-#up1{
-    height: 60px;
-    width: 180px;
-    margin-left: 120px;
-}
-#up1>img{
-    height: 50px;
-    width: 150px;
-   
-}
-#up2{
-    height: 60px;
-    width: 600px;
-  margin-top: 10px;
-    margin-left: 30px;
-}
-#up3{
-    height: 60px;
-    width: 500px;
-    margin-left: 0px; 
-
-}
-#down{
-    height: 70px;
-    width: 100%;
-    display: flex;
-    padding-left: 220px;
-    gap: 30px;
-}
-#down>div{
-    height: 60px;
-    width: 180px;
-}
-#input{
-    height: 50px;
-    width: 600px;
-    box-sizing: border-box;
-    border: 0px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-#up3>span{
-    padding-left: 25px;
-    color: white;
-   
-}
-i{
-font-size: 20px;
-padding-left: 10px;
-color: white;
-}
-.one{
-    padding-left: 10px;
-}
-#down2{
-    display: flex;
-}
-#down3{
-    display: flex;
-}
-#down4{
-    display: flex;
-}
-#down5{
-    display: flex;
-}
-#down6{
-    display: flex;
-}
-#down2 img,#down3 img,#down4 img,#down5 img,#down6 img{
-    height: 40px;
-    width: 60px;
-}
-.head{
-    color: rgb(223, 243, 234);
-}
-.fa-solid{
-    margin-top: 16px;
-    font-size: 16px;
-}
-.fa-solid:hover{
-    
-    cursor: pointer;
-    transition: 0s;
-    transform: rotate(180deg);
-     -webkit-transform: rotate(180deg);
-     -ms-transform: rotate(180deg);
-}
-
-#strip{
-    height: 60px;
-    width: 100%;
- margin-left: 170px;
-    display: flex;
-    gap: 25px;
-    background-color: rgb(243,247,251);
-    
-}
-#low{
-    background-color: rgb(243,247,251);
-}
-
-
-#down2{
-    position: relative ;
- 
-}
-
-.menu{
-    
-    position: absolute;
-    transform: translate(-25%,0);
-    top: 100%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0, .1);
-    opacity: 0;
-    z-index: 100;
-   
-}
-
-#down2.active > .head+ .menu{
-
- opacity: 1;
-
-
-}
-
-
 /* Suresh */
 
 #body{
@@ -148,6 +6,7 @@ color: white;
 #carouselExampleIndicators{
     padding: 0px 16px;
     height: 300px;
+    margin-top: 20px;
 }
 .carousel-inner img{
     height: 320px;
@@ -1290,12 +1149,13 @@ color: white;
 #Advice{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 210px;
+    margin-bottom: 160px;
     padding: 20px 32px;
     position: relative;
     height: 150px;
     color: white;
     background-color: #ef4281;
+    
 
 }
 #Advice>h2{

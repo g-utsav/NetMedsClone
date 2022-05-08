@@ -5,21 +5,65 @@ function create(id){
     return document.createElement(id)
 }
 
-import {covidEssentials} from "../components/data.js"
+import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
+import {sidebar} from "../components/export.js"
+import {navbar,shopcart} from "../components/navbar.js"
+import {footer} from "../components/footer.js"
 
-let data = covidEssentials()
+
+get("#navbar").innerHTML = navbar()
+
+get("#sidebar").innerHTML = sidebar()
+// get("#footerContainer").innerHTML = footer()
+get("#footer").innerHTML = footer()
+
+let dataFuncArr = [covidEssentials,personalCare,MakeUp];
+let loadData = localStorage.getItem("loadData") || ""
+let data;
+let backUp;
+if(loadData == "cE"){
+    data = covidEssentials();
+    backUp = 0;
+    localStorage.setItem("loadData1", "cE")
+}else if(loadData == "pC"){
+    data = personalCare();
+    backUp = 1;
+    localStorage.setItem("loadData1", "pC")
+}else if(loadData == "mU"){
+    data = MakeUp();
+    backUp = 2;
+    localStorage.setItem("loadData1", "mU")
+}else{
+    let ran = Math.floor(Math.random()*3)
+    console.log(ran)
+    data = dataFuncArr[ran]()
+    backUp = ran;
+    let key ;
+    if(ran == 0){
+        key = "cE"
+    }else if(ran == 1){
+        key = "pC"
+    }else if(ran == 2){
+        key = "mU"
+    }
+
+    localStorage.setItem("loadData1", key)
+}
+
+
+// let data = MakeUp()
 // console.log(data)
 let buttonCreateDivCount = 0;
 let i = 0;
-
+let mastRan;
 function displayUI({bannerImg, mastCata, name}){
     let body = get("appendProd");
 
     console.log(mastCata)
     sortByCatagory(mastCata)
     displayBannerImage(bannerImg,name);
-
-    appendPrducts(mastCata[Math.floor(Math.random()*3)].catagories.data);
+    if(!mastRan)mastRan = Math.floor(Math.random()* mastCata.length);
+    appendPrducts(mastCata[mastRan].catagories.data);
 
 }
 displayUI(data)
@@ -209,3 +253,46 @@ function sortByCatagory(data){
     body.append(h5, mDiv)
 }
 
+
+let sortButtons = get("#buttonsToSort>div");
+sortButtons = sortButtons.children
+sortButtons[0].style.color = "#24aeb1"
+sortButtons[0].style.border = "1px solid #24aeb1"
+for(let x of sortButtons){
+    x.addEventListener("click",sortingCall);
+}
+
+
+function buttonColor(event){
+    for(let x of sortButtons){
+        x.style.color = "black"
+        x.style.border = "none"
+    }
+    event.style.color = "#24aeb1"
+    event.style.border = "1px solid #24aeb1"
+}
+
+function sortingCall(event){
+    let dataLocal = dataFuncArr[backUp]();
+    let buttonVal = event.target.value
+    buttonColor(event.target);
+
+    if(buttonVal == "h"){
+        dataLocal.mastCata[mastRan].catagories.data.sort((a,b) =>b.price-a.price)
+        displayUI(dataLocal)
+    }else if(buttonVal == "l"){
+        dataLocal.mastCata[mastRan].catagories.data.sort((a,b) =>a.price-b.price)
+        displayUI(dataLocal)
+    }else if(buttonVal == "p"){
+        displayUI(data)
+    }else if(buttonVal == "d"){
+        dataLocal.mastCata[mastRan].catagories.data.sort((a,b) =>{
+            a = a.price - (a.strike || 0)
+            b = b.price - (b.strike || 0)
+            return a-b 
+        })
+        displayUI(dataLocal)
+    }
+
+}
+shopcart()

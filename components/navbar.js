@@ -138,13 +138,30 @@ function shopcart(){
     })
 
     let datax = JSON.parse(localStorage.getItem("cartData"))
-    let x  = document.querySelector("#t1")
-    let x1  = document.querySelector("#t2")
+// <<<<<<< HEAD
+//     let x  = document.querySelector("#t1")
+//     let x1  = document.querySelector("#t2")
 
-    for(let y in datax){
-        x.textContent = datax[y].name
-        x1.textContent = datax[y].price
-    } 
+//     for(let y in datax){
+//         x.textContent = datax[y].name
+//         x1.textContent = datax[y].price
+//     } 
+// =======
+console.log('datax:', datax)
+let x  = document.querySelector("#t1")
+let x1  = document.querySelector("#t2")
+let x2  = document.querySelector("#t3")
+for(let y in datax){
+
+       x.textContent = datax[y].name
+       console.log('y:', datax[y].name)
+      x1.textContent = datax[y].price
+
+     x2.textContent = `RS.${datax[y].price}`
+}
+
+    
+// >>>>>>> f79d9d2c1da0144bed16fae81c0fdcc4481ed1b3
 }
 
 

@@ -201,6 +201,7 @@ function funto(z,ind){
         console.log(obj)
     }
     localStorage.setItem("cartData",JSON.stringify(obj));
+    window.location.reload();
 }
 
 function pongoo(){

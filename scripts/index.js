@@ -1,4 +1,4 @@
-import {navbar} from "../components/navbar.js";
+import {navbar,shopcart} from "../components/navbar.js";
 document.getElementById("navbar").innerHTML= navbar();
 
 import {footer} from "../components/footer.js";
@@ -146,6 +146,7 @@ $('.carousel').carousel({
 
 
 
+
    
   let arr=JSON.parse(localStorage.getItem("data"))
   if(arr!==null){
@@ -163,3 +164,6 @@ $('.carousel').carousel({
   
          })
       }  
+
+shopcart()
+

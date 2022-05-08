@@ -1,3 +1,13 @@
+let hello = ()=>{
+
+alert("Our Pharmacist Will Call You Shortly")
+
+window.location.href="index.html"
+
+}
+
+
+
 const wrapper = document.querySelector(".wrapper");
 const fileName = document.querySelector(".file-name");
 const defaultBtn = document.querySelector("#default-btn");

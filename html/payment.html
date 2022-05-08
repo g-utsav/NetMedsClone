@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/payment.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div id="tag">
+            <img src="https://www.netmeds.com/msassets/home-logo-netmeds-new.svg" alt="">
+        </div>
+    </div>
+
+    
+
+    <div id="main">
+        <div id="order_review">
+            <div>
+                <h2>
+                    Payment Details 
+                </h2>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+         <div id="loader"></div>
+        <div id="main2">
+            
+            <div id="data">
+                <div class="payment">
+                    <p class="headline">PREFERED PAYMENT</p>
+                    <div class="imgtag">
+                        <div class="icon">
+                        <img class="imgpay" src="https://www.netmeds.com/assets/pgicon/Paytm_lo.png" alt="">
+                        <p>Paytm</p>
+                        </div>
+
+                        <div class="check">
+                            <a href="https://paytm.com/"><p>link</p></a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                    <div class="upi"> 
+                        <p class="headline">Wallet</p>
+                        <div class="imgtag">
+                            <div class="icon">
+                            <img class="imgpay" src="https://www.netmeds.com/assets/pgicon/amazonpay_new.png" alt="">
+                            <p>Amazon Pay</p>
+                            </div>
+    
+                            <div class="check">
+                                <!-- <label for="myCheck">Pay: </label>  -->
+                               <input type="checkbox" name="" id="myCheck" onclick="myFunction()">
+                               
+                            <button id="text" onclick="Amazon()" style="display:none">Pay</button> 
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+                    <div class="upi"> <p class="headline">OTHER PAYMENTS</p>
+                        <div class="imgtag">
+                            <div class="icon">
+                            <img class="imgpay" src="https://www.netmeds.com/assets/pgicon/Phone_Pay_lo.png" alt="">
+                            <p>PhonePe</p>
+                            </div>
+    
+                            <div class="check">
+                                <input type="checkbox" name="" id="Check" onclick="myFuncti()">
+                               <button id="txt" onclick="Phone()" style="display:none">Pay</button>
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+                    <div class="upi"> <p class="headline">UPI</p>
+                        <div class="imgtag">
+                            <div class="icon">
+                            <img class="imgpay" src="https://www.netmeds.com/assets/pgicon/googlepaylogo.png" alt="">
+                            <button id="text" style="display:none">Pay</button>
+                            <p>Google Pay</p>
+                            </div>
+    
+                            <div class="check">
+                                <label for="myCheck"></label> 
+                                <input type="checkbox" name="" id="myChec" onclick="myFunctio()">
+                                <button id="tex" onclick="Google()" style="display:none">Pay</button>
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+                    <div class="upi"> <p class="headline">Cash on Delivery</p>
+                        <div class="imgtag">
+                            <div class="icon">
+                            <img class="imgpay" src="https://www.netmeds.com/assets/pgicon/COD.png" alt="">
+                            <p>
+                                Cash on Delivery</p>
+                            </div>
+    
+                            <div class="check">
+                                <label for="myCheck"></label> 
+                                <input type="checkbox" name="" id="myCheck" onclick="myFunction()">
+                                <button id="text" style="display:none">Checkbox is CHECKED!</button>
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+             </div>
+
+             <div id="price">
+                <p class="headline">PAYMENT DETAILS</p>
+                <div class="discount" id="total">
+                    <p>MRP Total</p>
+                    <!-- <p>Rs.130.00</p> -->
+                </div>
+                <div  class="discount" id="discount">
+                  <p>Netmeds Discount</p>
+                  <!-- <p>Rs.130.00</p> -->
+                </div>
+                <div  class="discount" id="all">
+                  <p>Total Amount *</p>
+                  <!-- <p>Rs.130.00</p> -->
+                </div>
+                <div id="saving">
+                  <!-- <p>TOTAL SAVINGS RS.28.60</p> -->
+                </div>
+                </div>
+            </div>
+
+
+            
+
+</body>
+</html>
+
+
+<script src="../scripts/payment.js"></script>

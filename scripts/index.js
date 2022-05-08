@@ -155,7 +155,7 @@ $('.carousel').carousel({
        let final =document.getElementById("a")
   
          arr.forEach(function(el){
-          console.log(el.first)
+          
            
           // let a=document.createElement("p")
           // a.innerText=el.first
@@ -164,6 +164,23 @@ $('.carousel').carousel({
   
          })
       }  
+
+
+//       let datax = JSON.parse(localStorage.getItem("cartData"))
+//       console.log('datax:', datax)
+//   let x  = document.querySelector("#t1")
+//   let x1  = document.querySelector("#t2")
+
+// for(let y in datax){
+
+//          x.textContent = datax[y].name
+//          console.log('y:', datax[y].name)
+//         x1.textContent = datax[y].price
+       
+       
+       
+
+// }
 
 shopcart()
 

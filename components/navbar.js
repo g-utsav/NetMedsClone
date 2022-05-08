@@ -20,7 +20,7 @@ function navbar(){
     
     <div id="up3">
         <span><i class="fa-solid fa-file-lines"></i><span class="one"><a style="color: white;text-decoration: none;" href="upload.html">Upload</a></span></span>
-    <span id="si"><i class="fa-solid fa-cart-shopping cartt"></i><span class="one cartt">Cart</span></span>
+    <span id="si"><i class="fa-solid fa-cart-shopping cartt"></i><span id="cart" class="one cartt">Cart</span></span>
     <div id="siri">
         <div id="n1">
             <p>ORDER SUMMARY</p>
@@ -41,7 +41,6 @@ function navbar(){
     <span><i class="fa-solid fa-user"></i><span class="one"></span id="log"><a id="a" href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span>    
     
 
-    <span class="log"><i class="fa-solid fa-user"></i><span class="one log"><a class="log" href="signup.html" style="text-decoration: none; color:#fff">Sign in / Sign up</a></span></span>       
 
     </div>
     </div>
@@ -133,8 +132,27 @@ function shopcart(){
             window.location.href="./cart.html"
         })
     })
+
+    document.querySelector("#n3>button").addEventListener("click",function(){
+        window.location.href = "./cart.html"
+    })
+
+    let datax = JSON.parse(localStorage.getItem("cartData"))
+    console.log('datax:', datax)
+let x  = document.querySelector("#t1")
+let x1  = document.querySelector("#t2")
+
+for(let y in datax){
+
+       x.textContent = datax[y].name
+       console.log('y:', datax[y].name)
+      x1.textContent = datax[y].price
+}
+
     
 }
+
+
 
 
 

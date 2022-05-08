@@ -138,18 +138,13 @@ function shopcart(){
     })
 
     let datax = JSON.parse(localStorage.getItem("cartData"))
-    console.log('datax:', datax)
-let x  = document.querySelector("#t1")
-let x1  = document.querySelector("#t2")
+    let x  = document.querySelector("#t1")
+    let x1  = document.querySelector("#t2")
 
-for(let y in datax){
-
-       x.textContent = datax[y].name
-       console.log('y:', datax[y].name)
-      x1.textContent = datax[y].price
-}
-
-    
+    for(let y in datax){
+        x.textContent = datax[y].name
+        x1.textContent = datax[y].price
+    } 
 }
 
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    border-radius: 20px;
+
+     }
+     input{
+         width: 200%;
+        height: 25px;
+     }
+     #signup{
+         margin-left: 10%;
+     }
+
+#button{
+   width: 206%; 
+   height: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="image">
+            <img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"/>
+        </div>
+      <div id="signup">
+      <h2>Create Account</h2>
+      <br>
+      
+        <p>EMAIL ID</p> 
+        <input id="email" type="text" placeholder="Enter your Email Id"/>
+        <br>
+        <p>FIRST NAME</p>
+        <input  id="first" type="text" placeholder="Your First Name"/>
+        <br>
+        <p>LAST NAME</p>
+        <input id="last" type="text" placeholder="Your Last Name"/>
+        <br>
+        <br>
+       <!-- <input id="pass" type="number" placeholder="Inter otp"/> -->
+      <button id="button" onclick="func()">VERIFY </button>
+      </div>
+      
+          </div>
+</body>
+</html>
+<script>
+
+
+
+
+    let arr=[]
+function func(){
+
+//  console.log(arr.email)
+
+let a=document.getElementById("email").value
+let b=document.getElementById("first").value
+let c=document.getElementById("last").value
+if(a==""){
+    alert("Enter Email")
+    return
+}
+if(b==""){
+    alert("Enter First Name")
+    return 
+}
+if(c==""){
+    alert("Enter Last Name")
+    return
+}
+else{  let obj={
+    email:a,
+    first:b,
+    last:c
+}
+arr.push(obj)
+console.log(arr.email)
+    localStorage.setItem("data",JSON.stringify(arr))
+   window.location.href= "index.html" 
+}
+
+
+}
+
+
+let data_one = JSON.parse(localStorage.getItem("data"))
+console.log(data_one)
+
+let alexa = (para)=>{
+    return document.createElement(para)
+}
+
+let name = document.createElement("p")
+name.innerText = data_one.first
+
+let log  = document.querySelector("log")
+log.textContent = data_one.first
+
+
+</script>

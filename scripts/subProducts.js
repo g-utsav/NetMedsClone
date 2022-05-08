@@ -7,7 +7,7 @@ function create(id){
 
 import {covidEssentials, personalCare, MakeUp} from "../components/data.js"
 import {sidebar} from "../components/export.js"
-import {navbar} from "../components/navbar.js"
+import {navbar,shopcart} from "../components/navbar.js"
 import {footer} from "../components/footer.js"
 
 get("#navbar").innerHTML = navbar()
@@ -247,4 +247,4 @@ function sortingCall(event){
 
 }
 
-
+shopcart()

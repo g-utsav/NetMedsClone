@@ -10,6 +10,10 @@ width: 100%;
 background-color: rgb(50,174,177)!important;
 margin-top: -20px;
 }
+a{
+    text-decoration: none !important;
+    color: #ffff;
+}
 #up{
     height: 70px;
     width: 100%;

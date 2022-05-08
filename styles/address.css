@@ -107,3 +107,12 @@ button{
     padding: 10px;
     margin-bottom: 20px;
 }
+*{
+    font-family: 'Lato', sans-serif;
+} 
+#navbar{
+    margin-bottom: 50px;
+}
+#footer{
+    margin-top: 50px;
+}

@@ -188,3 +188,12 @@ button{
  #sell{
      margin-left: 400px;
  }
+ *{
+    font-family: 'Lato', sans-serif;
+} 
+#navbar{
+    margin-bottom: 50px;
+}
+#footer{
+    margin-top: 50px;
+}

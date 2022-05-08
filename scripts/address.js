@@ -26,7 +26,7 @@ document.addEventListener("click", e =>{
 
 })
 
-  document.querySelector("button").addEventListener("click",addres);
+  document.querySelector("#probtn").addEventListener("click",addres);
   function addres(){
       var obj={
           lastname:document.querySelector("#lname").value,
@@ -39,5 +39,6 @@ document.addEventListener("click", e =>{
           phonenumber:document.querySelector("#phone").value
       }
       localStorage.setItem("address",JSON.stringify(obj));
-      window.location.href="";
+      window.location.href="./pay.html";
+      alert("heloo")
   }

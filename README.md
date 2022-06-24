@@ -3,8 +3,8 @@ Project Details-
 We had to make a replica of the Netmeds website. Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha & Company – one of India’s most trusted pharmacies, with over 100 years of experience in dispensing quality medicines. At netmeds.com, you look after your health effortlessly and take care of loved ones wherever they may reside in India. You can buy and send medicines from any corner of the country - with just a few clicks of the mouse. At netmeds.com, they make a wide range of prescription medicines and other health products conveniently available all across India. Even second and third-tier cities and rural villages can now have access to the latest medicines. Online buyers can expect significant savings since they also offer generic alternatives to most medicines.
 
 Our contribution to Project-
-* Gaurav Jaiswal->Navbar+Prescription page
-* Suresh Jungle->Footer+Homepage
+* Gaurav Jaiswal->Navbar+Prescription page+Footer
+* Suresh Jungle->Homepage
 * Raj Kumar Bind->Login/Signup+productdata
 * Utsav Gupta->Productpages+Managing team
 * Sachin Kumar->Cart page+Address page

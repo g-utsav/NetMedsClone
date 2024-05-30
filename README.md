@@ -1,24 +1,34 @@
-# NetMedsClone
-Project Details-
-We had to make a replica of the Netmeds website. Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha & Company – one of India’s most trusted pharmacies, with over 100 years of experience in dispensing quality medicines. At netmeds.com, you look after your health effortlessly and take care of loved ones wherever they may reside in India. You can buy and send medicines from any corner of the country - with just a few clicks of the mouse. At netmeds.com, they make a wide range of prescription medicines and other health products conveniently available all across India. Even second and third-tier cities and rural villages can now have access to the latest medicines. Online buyers can expect significant savings since they also offer generic alternatives to most medicines.
+## NetMeds Clone
 
-Our contribution to Project-
-* Gaurav Jaiswal->Navbar+Prescription page+Footer
-* Suresh Jungle->Homepage
-* Raj Kumar Bind->Login/Signup+productdata
-* Utsav Gupta->Productpages+Managing team
-* Sachin Kumar->Cart page+Address page
-* Akhil Khan->Payment page+Order Confirmation page
+### Overview:
+This project is a clone of NetMeds, built entirely with HTML, CSS, and JavaScript. It aims to replicate the core functionalities of the original platform, providing users with an intuitive interface to browse, purchase, and manage healthcare products online.
 
-Tech Stacks Used-
-HTML—> 29.7%
-CSS—> 18.9%
-JavaScript—> 53.4%
+### Features:
+- *Responsive Design:* Crafted with HTML and CSS for a seamless experience across devices.
+- *Interactive User Interface:* Utilizes JavaScript for dynamic and engaging user interactions.
+- *Product Catalog:* Browse a comprehensive catalog of medicines and healthcare products.
+- *Search Functionality:* Easily find products using the search feature.
+- *Shopping Cart:* Add and manage items in the shopping cart before checkout.
+- *Order Management:* Track orders from placement to delivery.
+- *User Authentication:* Secure user registration and login functionalities.
+- *Prescription Upload:* Option for users to upload prescriptions for prescribed medicines.
 
-Learnings-
-We all became proficient in reading the code of team members.
-How to use import/export and bootstrap in making a project.
-How to work and communicate with a team.
-How to be more efficient and productive at the same time.
-Here we get to know how the team works, how to keep cool even under pressure conditions, and how to keep myself and my teammates motivated throughout the ups and downs.
+### Tech Stack:
+- *HTML:* Structure and layout of web pages.
+- *CSS:* Styling and design elements for enhanced user experience.
+- *JavaScript:* Dynamic functionalities and interactive features.
 
+### Installation:
+1. Clone the repository.
+2. Open the project directory.
+3. Run the project in your preferred web browser.
+
+### Contribution:
+Contributions are welcome! Feel free to open issues or submit pull requests for any enhancements, bug fixes, or new features.
+
+### Disclaimer:
+This project is for educational and non-commercial purposes only. It is not affiliated with NetMeds and should not be used for real-world transactions without appropriate modifications and legal compliance.
+
+---
+
+This description focuses on the simplicity and functionality of the tech stack while providing a clear overview of the project. Feel free to adjust it according to your preferences!
